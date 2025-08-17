@@ -55,9 +55,12 @@ PY
 ### Run the matmul benchmark
 
 ```bash
-python benchmarks/pytorch_mps_matmul.py --device cpu   --size 8192 --repeat 6 --dtype float16
-python benchmarks/pytorch_mps_matmul.py --device mps   --size 8192 --repeat 6 --dtype float16
-python benchmarks/pytorch_mps_matmul.py --device mps   --size 8192 --repeat 6 --dtype float32
+# 1) Apples-to-apples baseline (same size & dtype)
+python benchmarks/pytorch_mps_matmul.py --device cpu --size 4096 --repeat 3 --dtype float32
+python benchmarks/pytorch_mps_matmul.py --device mps  --size 4096 --repeat 3 --dtype float32
+
+# 2) Show GPU advantage with mixed precision
+python benchmarks/pytorch_mps_matmul.py --device mps  --size 4096 --repeat 5 --dtype float16
 ```
 
 You’ll see wall‑clock times and approximate TFLOP/s. The GPU (`mps`) should be significantly faster than `cpu` on larger sizes, especially with `float16`.
@@ -83,9 +86,16 @@ PY
 ### Run the matmul benchmark
 
 ```bash
-python benchmarks/tf_metal_matmul.py --device cpu --size 8192 --repeat 6 --dtype float16
-python benchmarks/tf_metal_matmul.py --device gpu --size 8192 --repeat 6 --dtype float16
-python benchmarks/tf_metal_matmul.py --device gpu --size 8192 --repeat 6 --dtype float32
+# 1) Apples-to-apples baseline (same size & dtype)
+python benchmarks/tf_metal_matmul.py --device cpu --size 4096 --repeat 3 --dtype float32
+python benchmarks/tf_metal_matmul.py --device gpu --size 4096 --repeat 3 --dtype float32
+
+# 2) Show GPU advantage with mixed precision
+python benchmarks/tf_metal_matmul.py --device gpu --size 4096 --repeat 5 --dtype float16
+
+# (Optional) Heavier run
+python benchmarks/tf_metal_matmul.py --device cpu --size 8192 --repeat 1 --dtype float32
+python benchmarks/tf_metal_matmul.py --device gpu --size 8192 --repeat 3 --dtype float16
 ```
 
 If GPU is set up, you’ll see one Metal GPU in the device list and faster timings for `--device gpu` on larger sizes.
